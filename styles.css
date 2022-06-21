@@ -31,20 +31,22 @@ hr{
 
 .link{
     text-decoration: none;
-    margin: 0px 5px;
+    
+    margin: 0.1rem 0.1rem;
     padding: 0.1rem 0.5rem;
 }
 
 .link-primary{
     background-color: var(--primary-color);
-    
-    border-radius: 00.2rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
     color: white;
 }
 
 .link-secondary{
-    border: 2px solid grey;
+    border: 0.01rem solid var(--dark-grey);
     border-radius: 0.2rem;
+    color: var(--dark-grey);
 }
 
 
@@ -71,7 +73,8 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    margin: 0.2rem 0.2rem;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -119,7 +122,7 @@ section{
 
 
 
-.section h3{
+.section h1{
     text-align: center;
 }
 
@@ -136,6 +139,7 @@ section{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 5rem;
 }
 
 .footer .link{
@@ -144,4 +148,9 @@ section{
 
 .footer ul{
     padding: 0px;
+}
+
+.footer .footer-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
